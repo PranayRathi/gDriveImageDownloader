@@ -81,7 +81,7 @@ def check_file_size(path):
     file_size = os.path.getsize(path)
     print("File Size is :", file_size, "bytes")
     
-    if(MAX_SIZE > file_size):
+    if(MAX_SIZE < file_size):
         print("File size has crossed the max limit")
         return True
 
