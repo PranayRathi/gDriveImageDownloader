@@ -29,4 +29,3 @@ def upload_image(file_path):
     res = dbx.sharing_create_shared_link_with_settings(file_path_dropbox)
     # print(res.url)    
     return res.url
-
