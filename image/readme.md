@@ -5,6 +5,7 @@
  pip install openpyxl
  pip install googledrivedownloader
  pip install dropbox
+ pip install gdown
 
 This project will work as follows:
 
